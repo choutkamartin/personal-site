@@ -1,0 +1,72 @@
+.grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.pill .green {
+  background-color: #198754;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.article {
+  transition: 0.25s ease-in-out;
+}
+
+.article:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.article h4 {
+  margin-bottom: 4px;
+}
+
+.pill {
+  margin-bottom: 4px;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.link:hover img {
+  background-color: #9acbff;
+  transition: 0.25s ease-in-out;
+}
+
+.date {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.meta img {
+  margin-right: 10px;
+}
+
+.image {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.new {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  color: #4b545c;
+  font-weight: 500;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
+}
+
+.new img {
+  margin-right: 10px;
+}

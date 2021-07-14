@@ -1,0 +1,18 @@
+{
+    "username": "Uživatelské jméno",
+    "password": "Heslo",
+    "sign-in": "Přihlásit se",
+    "first-name": "Křestní jméno",
+    "last-name": "Příjmení",
+    "message": "Zpráva",
+    "contact-form": "Kontaktní formulář",
+    "input-required": "Pole je vyžadováno",
+    "send": "Odeslat",
+    "home": "Domů",
+    "projects": "Projekty",
+    "blog": "Blog",
+    "small": "Student, programátor",
+    "login": "Přihlásit se",
+    "logout": "Odhlásit se",
+    "footer": "Napsáno v <a href='https://nextjs.org/' target='_blank' rel='noopener'>Next.js</a> <br /> <strong>Martin Choutka</strong>"
+}

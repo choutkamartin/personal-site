@@ -1,0 +1,80 @@
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.social {
+  margin-bottom: 25px;
+}
+
+.social img {
+  width: 18px;
+}
+
+.social a {
+  margin-right: 14px;
+}
+
+.language > p,
+.language > h3 {
+  color: #ffffff;
+}
+
+.language a img {
+  margin-left: 10px;
+}
+
+.language a {
+  background-color: rgba(52, 58, 64, 0.75);
+  color: #ffffff;
+  padding: 15px 25px;
+  font-size: 12px;
+  border-radius: 6px;
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.language {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #555;
+  background-image: url("/flags/united-kingdom-flag.png");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  width: 80%;
+}
+
+.text {
+  margin-bottom: 14px;
+}
+
+.text small {
+  font-weight: 500;
+}
+
+.menu {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #343a40;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.menu a img {
+  transition: 0.25s ease-in-out;
+}
+
+.menu a:hover img {
+  background-color: #9acbff;
+  cursor: pointer;
+}

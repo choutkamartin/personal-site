@@ -1,0 +1,8 @@
+{
+    "home" : "Home",
+    "projects" : "Projects",
+    "blog" : "Blog",
+    "contact-form" : "Contact form",
+    "login": "Login",
+    "logout": "Logout"
+}

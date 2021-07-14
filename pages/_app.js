@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import { appWithTranslation } from "next-i18next";
+import { Layout } from "../components/Layout/Layout";
+import { Provider } from "next-auth/client";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <Provider session={pageProps.session}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </Provider>
+  );
+};
 
-export default MyApp
+export default appWithTranslation(MyApp);

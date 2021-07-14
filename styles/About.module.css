@@ -1,0 +1,9 @@
+.grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.list {
+    padding-left: 30px;
+    margin-top: 4px;
+}

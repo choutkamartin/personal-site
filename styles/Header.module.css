@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+}
+
+.form input {
+  margin-right: 10px;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 2px solid #f0f2f5;
+  transition: 0.25s ease-in-out;
+  margin-bottom: 0;
+}
+
+.form input:hover {
+  border-color: #4b545c;
+}
+
+.form button {
+  margin-right: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #f0f2f5;
+  transition: 0.25s ease-in-out;
+  border-radius: 0;
+}
+
+.form button:hover {
+  border-color: #4b545c;
+}
