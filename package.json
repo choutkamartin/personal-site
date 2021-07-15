@@ -8,13 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "date-fns": "^2.21.3",
-    "little-state-machine": "^4.1.2",
-    "mongoose": "^5.12.11",
-    "next": "^10.2.3",
-    "next-auth": "^3.23.3",
-    "next-i18next": "^8.3.0",
-    "react-hook-form": "^7.6.8",
+    "date-fns": "^2.22.1",
+    "mongoose": "^5.13.2",
+    "next": "^11.0.1",
+    "next-auth": "^3.27.3",
+    "next-i18next": "^8.5.5",
+    "react-hook-form": "^7.11.0",
     "react-paginate": "^7.1.3"
   }
 }
